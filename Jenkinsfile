@@ -3,11 +3,11 @@ pipeline {
   stages {
     stage('Checkout Code') {
       steps {
-        git(url: 'https://github.com/Vladosik1337/test-jenkins2', branch: 'main')
+        git(url: 'https://github.com/Vladosik1337/test-jenkins3', branch: 'main')
       }
     }
 
-    stage('') {
+    stage('error') {
       steps {
         sh 'ls -la'
       }
